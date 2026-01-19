@@ -1,43 +1,15 @@
-﻿# be17-3rd-Picketnologia-Picket
+﻿# Picket
 
  <h1 align="center">🎟️ Picket </h1>
 
 <p align="center">
   <img src="./docs/picket_logo.png" width="400" alt="Picket 로고" />
   
-<h3 align="center">1팀 - Picketnologia</h3>
-
-<br /><br />
-
-# 👨‍💻 팀원 구성
-
-<table align="center">
-  <tr>
-  
-  ![팀원 이미지](./docs/super_middle_highlight.png)
-
-  </tr>
-  <tr>
-    <td align="center">
-      <b>최경민</b><br/>
-    </td>
-    <td align="center">
-      <b>강설</b><br/>
-    </td>
-    <td align="center">
-      <b>김원중</b><br/>
-    </td>
-    <td align="center">
-      <b>이상우</b><br/>
-    </td>
-    <td align="center">
-      <b>김광호</b><br/>
-    </td>
-  </tr>
-</table>
 <br /><br />
 
 # 프로젝트 주소
+
+[프로젝트 바로가기 - www.picket.o-r.kr](https://www.picket.o-r.kr)
 
 > 일반 사용자 <br>
 > test01@test.com <br>
@@ -48,8 +20,6 @@
 >
 > <br>
 > 비밀번호는 모두 qwer1234 입니다.
-
-[www.picket.o-r.kr](https://www.picket.o-r.kr)
 
 # 프로젝트 소개
 
@@ -73,29 +43,9 @@ Picket은 공연 예매 플랫폼으로, 판매자가 직접 공연을 등록하
 
 <img src="https://img.shields.io/badge/redis-FF4438?style=flat-square&logo=redis&logoColor=white" alt=""/>
 
-## 🔎 핵심 기능
+## ERD
 
-[핵심 기능]()
-<br>
-<br>
-
-## ⚙ 기능 테스트
-
-[기능 테스트](https://github.com/beyond-sw-camp/be17-3rd-Picketnologia-Picket/wiki/%EA%B8%B0%EB%8A%A5-%ED%85%8C%EC%8A%A4%ED%8A%B8)
-<br>
-<br>
-
-## ⚙ 성능 개선
-
-[성능 개선](https://github.com/beyond-sw-camp/be17-3rd-Picketnologia-Picket/wiki/4.-%EC%84%B1%EB%8A%A5%EA%B0%9C%EC%84%A0)
-<br>
-<br>
-
-## 🔗 Swagger
-
-[Swagger](https://api.picket.o-r.kr/swagger-ui/index.html#/)
-<br>
-<br>
+![ERD.png](docs/ERD.png)
 
 ## 🛠 시스템 아키텍처
 
