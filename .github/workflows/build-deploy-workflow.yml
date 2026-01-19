@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - "dev"
+    paths-ignore:
+      - "./README.md"
+      - "./docs"
+      - "./k8s"
   workflow_dispatch:
 
 jobs:
