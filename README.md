@@ -1,11 +1,11 @@
-﻿# Picket
-
- <h1 align="center">🎟️ Picket </h1>
+﻿# 🎟️ Picket
 
 <p align="center">
-  <img src="./docs/picket_logo.png" width="400" alt="Picket 로고" />
-  
-<br /><br />
+  <img src="./docs/picket_logo.png" width="300" alt="Picket 로고" />
+
+# 팀 Picketnologia
+> 한화시스템 BEYOND 17기 1팀 Picketnologia 미니 프로젝트 <br>
+> 개발 기간 : 2025.07 ~ 2025.09
 
 # 프로젝트 주소
 
@@ -23,37 +23,53 @@
 
 # 프로젝트 소개
 
-최근 공연, 전시, 스포츠 이벤트에 대한 관심이 높아지면서 예매 플랫폼의 수요도 빠르게 증가하고 있습니다. 기존 플랫폼들은 관심사 기반 알림, 대기열 시스템, 장애 복구 기능, QR 기반 티켓 제공 등을 통해 안정적인 예매 경험을 제공합니다.
+Picket은 공연 예매 플랫폼으로서 최근 공연, 전시 스포츠 이벤트에 대한 관심이 높아지면서 기존 플랫폼들의 많은 수요에도 불구하고 있습니다실시간성이 부족한 좌석 예매의 아쉬움을 해결하기 위해 만들어졌습니다.
+Picket에서는 실시간 좌석 기능 제공으로 사용자들의 예매 편의성을 높여주어 원활한 좌석 예매 경험을 제공합니다.
 
-Picket은 공연 예매 플랫폼으로, 판매자가 직접 공연을 등록하고 관리할 수 있으며, 사용자들은 좌석 정보를 실시간으로 확인하고 공유할 수 있는 기능을 제공합니다. 이를 통해 공연 정보와 좌석 현황을 신속하고 투명하게 제공하여, 사용자와 판매자 모두에게 편리하고 효율적인 공연 예매 경험을 제공합니다.
+## 기술 스택
 
-### 주요 특징
+### Front-end
+![Vue.js](https://img.shields.io/badge/VUE.JS-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
 
-- **판매자 중심 등록 기능** : 공연 정보와 좌석을 직접 등록하고 관리 가능
-- **실시간 좌석 공유** : 사용자가 좌석 상황을 실시간으로 확인하고 공유 가능
-- **투명하고 빠른 정보 제공** : 공연 정보와 좌석 현황을 즉시 반영
+### Back-end
+![Spring Boot](https://img.shields.io/badge/SPRING_BOOT-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 
-# 기술 스택
+### DB
+![MariaDB](https://img.shields.io/badge/MARIADB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+![Redis](https://img.shields.io/badge/REDIS-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-<img src="https://img.shields.io/badge/vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt=""/>
+### DevOps / Infra
 
-<img src="https://img.shields.io/badge/springboot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt=""/>
+![Jenkins](https://img.shields.io/badge/JENKINS-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Docker](https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/KUBERNETES-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
-<img src="https://img.shields.io/badge/mariadb-003545?style=flat-square&logo=mariadb&logoColor=white" alt=""/>
-
-<img src="https://img.shields.io/badge/redis-FF4438?style=flat-square&logo=redis&logoColor=white" alt=""/>
 
 ## ERD
 
 ![ERD.png](docs/ERD.png)
 
-## 🛠 시스템 아키텍처
+## AWS 배포 아키텍처
 
-[시스템 아키텍처](https://github.com/beyond-sw-camp/be17-3rd-Picketnologia-Picket/wiki/3.-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98)
-<br>
-<br>
+![실제 배포 아키텍처.png](docs/%EC%8B%A4%EC%A0%9C%20%EB%B0%B0%ED%8F%AC%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.png)
 
-## 📡 소프트웨어 아키텍처
+## CI / CD 아키텍처
 
-[소프트웨어 아키텍처](https://github.com/beyond-sw-camp/be17-3rd-Picketnologia-Picket/wiki/2.-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98#%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%EA%B5%AC%EC%84%B1)
-<br>
+![CI-CD 아키텍처.png](docs/CI-CD%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.png)
+
+## 담당 업무
+
+### 회원가입
+
+### 로그인
+
+### 비밀번호 찾기
+
+### 실시간 좌석 예매 동시성 제어
+
+![ Concurrency Control2.gif](docs/%EA%B8%B0%EB%8A%A5%20%EB%8F%99%EC%9E%91/%20Concurrency%20Control2.gif)
+
+### 결제
+
+![buyTicket.gif](docs/%EA%B8%B0%EB%8A%A5%20%EB%8F%99%EC%9E%91/buyTicket.gif)
+
